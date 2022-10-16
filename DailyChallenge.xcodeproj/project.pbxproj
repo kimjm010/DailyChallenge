@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5161E2528FC324F00539778 /* AddAllViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5161E2428FC324F00539778 /* AddAllViews.swift */; };
+		F51AD80428F8EC8500E634DF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F51AD80328F8EC8500E634DF /* SnapKit */; };
+		F51AD80728F8EC9500E634DF /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = F51AD80628F8EC9500E634DF /* Then */; };
 		F5B21D8128F7E9C20041A1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B21D8028F7E9C20041A1E3 /* AppDelegate.swift */; };
 		F5B21D8328F7E9C20041A1E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B21D8228F7E9C20041A1E3 /* SceneDelegate.swift */; };
 		F5B21D8528F7E9C20041A1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B21D8428F7E9C20041A1E3 /* ViewController.swift */; };
-		F5B21D8828F7E9C20041A1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B21D8628F7E9C20041A1E3 /* Main.storyboard */; };
 		F5B21D8A28F7E9C20041A1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B21D8928F7E9C20041A1E3 /* Assets.xcassets */; };
 		F5B21D8D28F7E9C20041A1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B21D8B28F7E9C20041A1E3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F5161E2428FC324F00539778 /* AddAllViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAllViews.swift; sourceTree = "<group>"; };
 		F5B21D7D28F7E9C20041A1E3 /* DailyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B21D8028F7E9C20041A1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5B21D8228F7E9C20041A1E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F5B21D8428F7E9C20041A1E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5B21D8728F7E9C20041A1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5B21D8928F7E9C20041A1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B21D8C28F7E9C20041A1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5B21D8E28F7E9C20041A1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,12 +33,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51AD80428F8EC8500E634DF /* SnapKit in Frameworks */,
+				F51AD80728F8EC9500E634DF /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F5161E2328FC323800539778 /* CustomViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F5161E2428FC324F00539778 /* AddAllViews.swift */,
+			);
+			path = CustomViewComponents;
+			sourceTree = "<group>";
+		};
 		F5B21D7428F7E9C10041A1E3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +68,13 @@
 		F5B21D7F28F7E9C20041A1E3 /* DailyChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				F5B21D8028F7E9C20041A1E3 /* AppDelegate.swift */,
-				F5B21D8228F7E9C20041A1E3 /* SceneDelegate.swift */,
-				F5B21D8428F7E9C20041A1E3 /* ViewController.swift */,
-				F5B21D8628F7E9C20041A1E3 /* Main.storyboard */,
+				F5161E2328FC323800539778 /* CustomViewComponents */,
 				F5B21D8928F7E9C20041A1E3 /* Assets.xcassets */,
 				F5B21D8B28F7E9C20041A1E3 /* LaunchScreen.storyboard */,
 				F5B21D8E28F7E9C20041A1E3 /* Info.plist */,
+				F5B21D8028F7E9C20041A1E3 /* AppDelegate.swift */,
+				F5B21D8228F7E9C20041A1E3 /* SceneDelegate.swift */,
+				F5B21D8428F7E9C20041A1E3 /* ViewController.swift */,
 			);
 			path = DailyChallenge;
 			sourceTree = "<group>";
@@ -83,6 +95,10 @@
 			dependencies = (
 			);
 			name = DailyChallenge;
+			packageProductDependencies = (
+				F51AD80328F8EC8500E634DF /* SnapKit */,
+				F51AD80628F8EC9500E634DF /* Then */,
+			);
 			productName = DailyChallenge;
 			productReference = F5B21D7D28F7E9C20041A1E3 /* DailyChallenge.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +127,10 @@
 				Base,
 			);
 			mainGroup = F5B21D7428F7E9C10041A1E3;
+			packageReferences = (
+				F51AD80228F8EC8500E634DF /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F51AD80528F8EC9500E634DF /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			productRefGroup = F5B21D7E28F7E9C20041A1E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +147,6 @@
 			files = (
 				F5B21D8D28F7E9C20041A1E3 /* LaunchScreen.storyboard in Resources */,
 				F5B21D8A28F7E9C20041A1E3 /* Assets.xcassets in Resources */,
-				F5B21D8828F7E9C20041A1E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5161E2528FC324F00539778 /* AddAllViews.swift in Sources */,
 				F5B21D8528F7E9C20041A1E3 /* ViewController.swift in Sources */,
 				F5B21D8128F7E9C20041A1E3 /* AppDelegate.swift in Sources */,
 				F5B21D8328F7E9C20041A1E3 /* SceneDelegate.swift in Sources */,
@@ -147,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F5B21D8628F7E9C20041A1E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5B21D8728F7E9C20041A1E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5B21D8B28F7E9C20041A1E3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +304,9 @@
 				INFOPLIST_FILE = DailyChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +332,9 @@
 				INFOPLIST_FILE = DailyChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +370,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F51AD80228F8EC8500E634DF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		F51AD80528F8EC9500E634DF /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F51AD80328F8EC8500E634DF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F51AD80228F8EC8500E634DF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F51AD80628F8EC9500E634DF /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F51AD80528F8EC9500E634DF /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5B21D7528F7E9C10041A1E3 /* Project object */;
 }
