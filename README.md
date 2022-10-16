@@ -18,6 +18,5 @@
 
 ## App Screenshot
 
-![Simulator Screen Shot - iPhone 14 Pro - 2022-10-16 at 21 51 30](https://user-images.githubusercontent.com/87006369/196036557-395b2377-1347-4950-b43d-303d93a283a4.png)
-
+![simulator_screenshot_D566A5B7-09E1-42D0-92D5-EFA601CBDC09](https://user-images.githubusercontent.com/87006369/196036574-9c9aa7ab-9461-4b4a-9669-903f662c972c.png)
 
