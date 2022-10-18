@@ -6,7 +6,7 @@
 
 ## Environment
 * 개발 환경(IDE): Xcode 14 버전
-* 개발 언어: Swift, RxSwift
+* 개발 언어: Swift
 * Target: iOS 16.0 이상
 * 소스 관리: Git
 
